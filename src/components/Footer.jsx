@@ -1,5 +1,10 @@
 import React from 'react'
 
+const handleButtonClick = () => {
+  const targetUrl ='https://twitter.com/PeachLayer3';
+  window.open(targetUrl, '_blank');
+};
+
 const Footer = () => {
   const inputStyles = {
     color: 'white', // Set the text color to white
@@ -29,114 +34,44 @@ const Footer = () => {
         </div>
 
         <div>
-          <p className="font-semibold md:text-black text-xl text-white dark:text-white">Developers</p>
+          {/* <p className="font-semibold md:text-black text-xl text-white dark:text-white">Developers</p> */}
 
           <div className="flex flex-col items-start mt-5 space-y-2">
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-            Developer Portal
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Docs
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Github
-            </a>
+            {/* <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Developer Portal </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Docs </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Github </a> */}
           </div>
         </div>
             
         <div>
-          <p className="font-semibold text-xl md:text-black text-white dark:text-white">Resources</p>
-
+          {/* <p className="font-semibold text-xl md:text-black text-white dark:text-white">Resources</p> */}
           <div className="flex flex-col items-start mt-5 space-y-2">
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Technology
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Glossary
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Blog
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Podcast
-            </a>
-            <a
-              href="#"
-              className="md:text-black  font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-             Resources
-            </a>
+            {/* <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Technology </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Glossary </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Blog </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Podcast </a>
+            <a href="#" className="md:text-black  font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Resources </a> */}
           </div>
         </div>
-        <div>
-          <p className="font-semibold md:text-black text-xl text-white dark:text-white">Misc</p>
 
+        <div>
+          {/* <p className="font-semibold md:text-black text-xl text-white dark:text-white">Misc</p> */}
           <div className="flex flex-col items-start mt-5 space-y-2">
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Brand
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-               Press
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Careers
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Terms of services
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-              Privacy Policy
-            </a>
-            <a
-              href="#"
-              className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500"
-            >
-             Team
-            </a>
+            {/* <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Brand </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Press </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Careers </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Terms of services </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300 dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Privacy Policy </a>
+            <a href="#" className="md:text-black font-semibold text-white transition-colors duration-300  dark:hover:text-blue-400 hover:underline hover:text-blue-500" > Team </a> */}
           </div>
         </div>
-        <div>
+        
+        {/* <div>
         <p className="font-semibold md:text-black text-xl text-white dark:text-white">Follow us</p>
-        <button className='px-4 py-3 border-2 mt-5 rounded-md font-semibold bg-black text-white'>
+        <button className='px-4 py-3 border-2 mt-5 rounded-md font-semibold bg-black text-white' onClick={handleButtonClick}>
             Community
         </button>
-        </div>
+        </div> */}
       </div>
 
      

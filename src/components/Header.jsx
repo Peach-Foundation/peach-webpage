@@ -59,17 +59,17 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('ecosystem')}
                         >
                         <p>Ecosystem</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 
-                                <div className={`${activeDropdown==='ecosystem'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}>
+                                <div className={`${activeDropdown==='ecosystem'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}> */}
                                     {/* Dropdown items */}
-                                  
+{/*                                   
                                         <a className='py-1 border-b' href="#">Item 1</a>
                                         <a className='py-2 border-b' href="#">Item 2</a>
                                         <a className='py-2 ' href="#">Item 3</a>
                                    
-                                </div>
+                                </div> */}
                            
                     </div>
 
@@ -79,17 +79,17 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('docs')}
                         >
                         <p>Docs</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 
-                    <div className={`${activeDropdown==='docs'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}>
+                    <div className={`${activeDropdown==='docs'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}> */}
                         {/* Dropdown items */}
-                      
+{/*                       
                             <a className='py-1 border-b' href="#">Doc 1</a>
                             <a className='py-2 border-b' href="#">Doc 2</a>
                             <a className='py-2 ' href="#">Doc 3</a>
                        
-                    </div>
+                    </div> */}
                
                     </div>
                     <div
@@ -98,17 +98,17 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('roadmap')}
                         >
                         <p>Roadmap</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 
-                                <div className={`${activeDropdown==='roadmap'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}>
+                                <div className={`${activeDropdown==='roadmap'?' visible opacity-100':' invisible opacity-0'} absolute flex flex-col w-full px-4 top-full left-0  py-2 bg-white bg-opacity-70 shadow-lg rounded transition-opacity duration-500 `}> */}
                                     {/* Dropdown items */}
-                                  
+{/*                                   
                                         <a className='py-1 border-b' href="#">Roadmap 1</a>
                                         <a className='py-2 border-b' href="#">Roadmap 2</a>
                                         <a className='py-2 ' href="#">Roadmap 3</a>
                                    
-                                </div>
+                                </div> */}
                            
                     </div>
 
@@ -132,18 +132,17 @@ const Header = () => {
                             onClick={() => handleDropdownClick('ecosystem')}
                         >
                         <p>Ecosystem</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180':'rotate-0'} `}/>
-                        {activeDropdown === 'ecosystem' && (
-                                /* Render the dropdown content here */
-                                <div className="absolute z-40 flex flex-col  w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white shadow-lg rounded">
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180':'rotate-0'} `}/>
+                        {activeDropdown === 'ecosystem' && ( */}
+                                {/* <div className="absolute z-40 flex flex-col  w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white shadow-lg rounded"> */}
                                     {/* Dropdown items */}
-                                  
+{/*                                   
                                         <a className='py-1 border-b' href="#">Item 1</a>
                                         <a className='py-2 border-b' href="#">Item 2</a>
                                         <a className='py-2 ' href="#">Item 3</a>
                                    
                                 </div>
-                            )}
+                            )} */}
                     </div>
 
 
@@ -152,36 +151,34 @@ const Header = () => {
                             onClick={() => handleDropdownClick('docs')}
                         >
                         <p>Docs</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180':'rotate-0'} `}/>
-                        {activeDropdown === 'docs' && (
-                                /* Render the dropdown content here */
-                                <div className="absolute z-40 flex flex-col w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white  shadow-lg rounded">
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180':'rotate-0'} `}/>
+                        {activeDropdown === 'docs' && ( */}
+                                {/* <div className="absolute z-40 flex flex-col w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white  shadow-lg rounded"> */}
                                     {/* Dropdown items */}
-                                  
+{/*                                   
                                         <a className='py-1 border-b' href="#">docs 1</a>
                                         <a className='py-2 border-b' href="#">docs 2</a>
                                         <a className='py-2 ' href="#">docs 3</a>
                                    
                                 </div>
-                            )}
+                            )} */}
                     </div>
                     <div
                             className='relative flex items-center text-xl font-semibold cursor-pointer'
                             onClick={() => handleDropdownClick('roadmap')}
                         >
                         <p>Roadmap</p>
-                        <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180':'rotate-0'} `}/>
-                        {activeDropdown === 'roadmap' && (
-                                /* Render the dropdown content here */
-                                <div className="absolute z-40 flex flex-col w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white  shadow-lg rounded">
+                        {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180':'rotate-0'} `}/>
+                        {activeDropdown === 'roadmap' && ( */}
+                                {/* <div className="absolute z-40 flex flex-col w-full px-4 top-full left-0 mt-1 py-2 bg-black text-white  shadow-lg rounded"> */}
                                     {/* Dropdown items */}
-                                  
+{/*                                   
                                         <a className='py-1 border-b' href="#">Roadmap 1</a>
                                         <a className='py-2 border-b' href="#">Roadmap 2</a>
                                         <a className='py-2 ' href="#">Roadmap 3</a>
                                    
                                 </div>
-                            )}
+                            )} */}
                     </div>
                 </div>
                 <div onClick={()=>setOpen(false)} className='absolute top-10 right-10'>
