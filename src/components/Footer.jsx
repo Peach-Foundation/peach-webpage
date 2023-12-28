@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const handleButtonClick = () => {
   const targetUrl ='https://twitter.com/PeachLayer3';
@@ -6,9 +6,38 @@ const handleButtonClick = () => {
 };
 
 const Footer = () => {
+  const [email, setEmail] = useState('');
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleSubscribe = async () => {
+    try {
+      const response = await fetch('https://xp413mqt2j.execute-api.ap-southeast-1.amazonaws.com/peachnewsletter', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: email }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to subscribe'); 
+      }
+
+      const result = await response.json();
+      if (result) {
+        setSubscribed(true)
+      }
+      // console.log(result); 
+
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
   const inputStyles = {
     color: 'white', // Set the text color to white
   };
+
   return (
     <footer className="bg-white footer dark:bg-gray-900 py-36 ">
     <div className="container px-6 py-12 mx-auto max-w-[80%] text-white">
@@ -20,16 +49,20 @@ const Footer = () => {
 
           <div className="flex flex-col mx-auto mt-6 space-y-3 md:space-y-3 ">
           <input
-      id="email"
-      type="text"
-      className="px-4 placeholder-white py-2 mr-6 text-white rounded-md bg-gray-900 focus:outline-none "
-      placeholder="Email Address"
-      style={inputStyles}
-    />
-
-            <button className="w-fit px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform  focus:outline-none bg-gray-900 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80">
+            id="email"
+            type="text"
+            className="px-4 placeholder-white py-2 mr-6 text-white rounded-md bg-gray-900 focus:outline-none "
+            placeholder="Email Address"
+            style={inputStyles}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+            <button 
+              className="w-fit px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform  focus:outline-none bg-gray-900 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+              onClick={handleSubscribe}
+            >
               Subscribe
             </button>
+            {subscribed ? <h5>Thanks for subscribing!</h5> : <></>}
           </div>
         </div>
 

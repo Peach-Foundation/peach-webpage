@@ -59,7 +59,7 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('ecosystem')}
                         >
                         <div className="button-container">
-                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Ecosystem</button>
+                            <button className="hover-button" onMouseOver="showMessage()" onMouseOut="hideMessage()">Ecosystem</button>
                             <div className="hover-message" id="message">Coming Soon!</div>
                         </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
@@ -82,7 +82,7 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('docs')}
                         >
                         <div className="button-container">
-                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Docs</button>
+                            <button className="hover-button" onMouseOver="showMessage()" onMouseOut="hideMessage()">Docs</button>
                             <div className="hover-message" id="message">Coming Soon!</div>
                         </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
@@ -104,7 +104,7 @@ const Header = () => {
                             onMouseLeave={() => handleDropdownClick('roadmap')}
                         >
                         <div className="button-container">
-                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Roadmap</button>
+                            <button className="hover-button" onMouseOver="showMessage()" onMouseOut="hideMessage()">Roadmap</button>
                             <div className="hover-message" id="message">Coming Soon!</div>
                         </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
