@@ -58,7 +58,10 @@ const Header = () => {
                             onMouseEnter={() => handleDropdownClick('ecosystem')}
                             onMouseLeave={() => handleDropdownClick('ecosystem')}
                         >
-                        <p>Ecosystem</p>
+                        <div className="button-container">
+                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Ecosystem</button>
+                            <div className="hover-message" id="message">Coming Soon!</div>
+                        </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='ecosystem'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 
@@ -78,7 +81,10 @@ const Header = () => {
                             onMouseEnter={() => handleDropdownClick('docs')}
                             onMouseLeave={() => handleDropdownClick('docs')}
                         >
-                        <p>Docs</p>
+                        <div className="button-container">
+                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Docs</button>
+                            <div className="hover-message" id="message">Coming Soon!</div>
+                        </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='docs'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 
@@ -97,7 +103,10 @@ const Header = () => {
                             onMouseEnter={() => handleDropdownClick('roadmap')}
                             onMouseLeave={() => handleDropdownClick('roadmap')}
                         >
-                        <p>Roadmap</p>
+                        <div className="button-container">
+                            <button className="hover-button" onmouseover="showMessage()" onmouseout="hideMessage()">Roadmap</button>
+                            <div className="hover-message" id="message">Coming Soon!</div>
+                        </div>
                         {/* <RiArrowDropDownLine size={25} className={`${activeDropdown==='roadmap'?'rotate-180 transition-all duration-500' : 'rotate-0 transition-all duration-600'} `}/>
                     
                                 

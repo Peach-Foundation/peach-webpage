@@ -23,14 +23,13 @@ body,html
 }
 .heroSection 
 {
-   background-image: url('./assets/Peach.webp');
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin-top: 0 !important;
+  background-image: url('./assets/Peach.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0 !important;
   padding-top: 0 !important;
   border-top: none !important;
-  height: auto;
-   
+  height: 100vh;
 }
 .learnSection 
 {
@@ -41,7 +40,6 @@ body,html
   margin-top: 0 !important;
   padding-top: 0 !important;
   border-top: none !important;
- 
   height: 100vh;
 }
 .section3 
@@ -52,7 +50,6 @@ body,html
   margin-top: 0 !important;
   padding-top: 0 !important;
   border-top: none !important;
- 
   height: 100vh;
 }
 .footer 
@@ -60,5 +57,33 @@ body,html
   background-image: url('./assets//footer.webp');
   background-repeat: no-repeat;
   background-size: cover;
-  
+}
+.button-container 
+{
+  position: relative;
+}
+.hover-message 
+{
+  display: none;
+  position: absolute;
+  top: -100%;
+  left: 75%;
+  transform: translateX(-50%);
+  color: black;
+  padding: 2px;
+  border-radius: 2px;
+  white-space: nowrap;
+  font-size: small;
+}
+.hover-button:hover + .hover-message 
+{
+  display: block;
+}
+.hover-message 
+{
+  transition: opacity 0.3s ease-in-out;
+}
+.hover-button:hover + .hover-message 
+{
+  opacity: 1;
 }

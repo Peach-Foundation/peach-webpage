@@ -15,7 +15,7 @@ const Hero = () => {
                   
                     <div className='w-full  flex items-center justify-center py-4'><p className='text-center text-2xl lg:max-w-[45%] md:max-w-[60%]
                     max-w-[90%]'>Peach is an isolated processing 
-                    layer3 blockchain which integrates AI to seamlessly execute any specific task.</p></div>
+                    layer 2 blockchain which integrates AI to seamlessly execute any specific task.</p></div>
                     {/* <Timer/> */}
                     {/* <button className='bg-black text-white px-5 py-2 mt-3  font-semibold rounded-full'>Launch</button> */}
                     <button className='bg-gray-600 text-white px-5 py-2 mt-3  font-semibold rounded-full'>Coming Soon</button>
