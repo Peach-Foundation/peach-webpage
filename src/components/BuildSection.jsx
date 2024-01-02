@@ -1,7 +1,7 @@
 import React from 'react'
 
 const handleButtonClick = () => {
-    const targetUrl ='https://twitter.com/PeachLayer3';
+    const targetUrl ='https://twitter.com/PeachLayer2';
     window.open(targetUrl, '_blank');
 };
 
