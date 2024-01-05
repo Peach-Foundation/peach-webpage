@@ -15,20 +15,12 @@ const Hero = () => {
            
             <div className='flex flex-col justify-center items-center pt-52 pb-6  '>
                 <div className='flex flex-col lg:items-center lg:justify-center gap-5 px-6'>
-<<<<<<< HEAD
                     <h1 className='font-bold lg:text-7xl md:text-7xl text-4xl'>The One Above All</h1>
                     <div className='w-full  flex lg:items-center lg:justify-center md:font-semibold '>
                         <p className='lg:max-w-[52%] lg:text-xl text-base lg:text-center md:w-[80%] w-full'>
                             Peach is a layer 2 EVM blockchain built on the Optimism stack and harness the data availability layer on Celestia, making blockchain operations hyper easy for everyone.
                         </p>
                     </div>
-=======
-                    <h1 className='r lg:text-[7rem] text-5xl lg:text-center '>The One Above All</h1>
-                  
-                    <div className='w-full  flex lg:items-center lg:justify-center md:font-semibold '><p className='lg:max-w-[52%] md:text-md text-sm  lg:text-center md:w-[80%] w-full
-                    '>Peach is a layer 2 EVM blockchian built on the Optimism stack and harness the data availability layer on Celestia, making blockchain operations hyper easy for everyone.
-                </p></div>
->>>>>>> a4ff66ec58a4b3ef305fb55fc71f671bf4d6152a
                     {/* <Timer/> */}
                     <button className='bg-black text-white w-fit px-9 py-3 mt-3  rounded-full'>Coming soon</button>
                     <div className=' mt-12 '>
