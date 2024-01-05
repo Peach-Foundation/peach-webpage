@@ -4,16 +4,23 @@
 @tailwind utilities;
 
 
+<<<<<<< HEAD
 @font-face {
   font-family: 'Rubiks';
   src: url('./fonts/Rubik-Regular.ttf') format('ttf');
 }
+=======
+>>>>>>> a4ff66ec58a4b3ef305fb55fc71f671bf4d6152a
 
 body,html 
 {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
+}
+.r {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
 }
 .rounded-top-right {
   border-top-right-radius: 0.375rem;

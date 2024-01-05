@@ -7,7 +7,7 @@ const Roadmap = () => {
 
     return (
         <div className='h-auto px-10  relative'>
-            <h3 className="text-5xl text-black font-extrabold text-center w-full mb-6 ml-3">Roadmap</h3>
+            <h3 className="text-5xl lg:text-8xl r text-black  text-center w-full mb-6 ml-3">Roadmap</h3>
             <ol className='max-w-[80%] mx-auto'>
                 <li className="border-l-8  border-[#d118d9] rounded-top-right">
                     <div className="md:flex flex-start">
@@ -291,7 +291,7 @@ const Roadmap = () => {
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
-                                                <li>- Foster collaborations with major players in the Blockchain and fintech industries..</li>
+                                                <li>- Foster collaborations with major players in the Blockchain and fintech industries.</li>
                                                 <li>- Explore potential partnerships with traditional finance institutions for blockchain integration.</li>
 
                                             </ol>
@@ -302,11 +302,11 @@ const Roadmap = () => {
                                     </div>
 
                                     <div className=" py-3">
-                                        <p className='py-2'>3.Regulatory developments:</p>
+                                        <p className='py-2'>3.Regulatory Compliance:</p>
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                <li>- Start abreast of global regulatory developments.</li>
+                                                <li>- Stay abreast of global regulatory developments.</li>
                                                 <li>- Proactively adapt Peach Blockchain to meet compliance standards in key markets.</li>
 
 
