@@ -27,7 +27,7 @@ const Hero = () => {
                             <img src={built} alt="" />
                     </div>
                     <div className='flex lg:justify-center items-center font-sm'>
-                        <img className='lg:w-full w-[70%]' src={powerBy} alt="" />
+                        <img className='max-w-full lg:max-w-full md:max-w-[70%]' src={powerBy} alt="" />
                     </div>
                 </div>
             </div>
