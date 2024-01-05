@@ -24,7 +24,7 @@ const Question = () => {
 
                                         <ol className='flex flex-col gap-1'>
                                             <li>- Launch community forums and social media channels.</li>
-                                            <li>- Organize webinars and AMAS to interact directly with users.</li>
+                                            <li>- Organize webinars and AMAs to interact directly with users.</li>
                                             <li>- Initiate bug bounty programs to enhance security.</li>
                                         </ol>
 
@@ -39,7 +39,7 @@ const Question = () => {
 
                                         <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
                                             <li>- Launch community forums and social media channels.</li>
-                                            <li>- Organize webinars and AMAS to interact directly with users.</li>
+                                            <li>- Organize webinars and AMAs to interact directly with users.</li>
                                             <li>- Initiate bug bounty programs to enhance security.</li>
                                         </ol>
 

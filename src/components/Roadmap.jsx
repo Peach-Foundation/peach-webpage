@@ -21,15 +21,15 @@ const Roadmap = () => {
                         </div>
                         <div className='md:pb-6 pb-12 w-full'>
                             <div className="block p-6 rounded-lg shadow-lg questions w-full ml-6">
-                                <h1 className='font-bold'>Q1: 2024</h1>
-                                <div className="text-sm font-semibold">
+                                <h1 className='font-black text-2xl'>Q1: 2024</h1>
+                                <div className="lg:text-base text-sm font-semibold">
                                     <p className='py-2'>1.Peach Prompt Optimization</p>
                                     <div className=''>
 
                                         <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
-                                            <li>- Refine user interface and experience based on initial feedback.</li>
-                                            <li>- Implement aditional analytical tools for advance traders.</li>
-                                            <li>- Conduct user testing and gather insigths for further improvemenets.</li>
+                                            <li>- Refine the user interface and experience based on initial feedback.</li>
+                                            <li>- Implement additional analytical tools for advanced traders.</li>
+                                            <li>- Conduct user testing and gather insights for further improvements.</li>
                                         </ol>
 
 
@@ -42,7 +42,7 @@ const Roadmap = () => {
 
                                             <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
                                                 <li>- Launch community forums and social media channels.</li>
-                                                <li>- Organize webinars and AMAS to interact directly with users.</li>
+                                                <li>- Organize webinars and AMAs to interact directly with users.</li>
                                                 <li>- Initiate bug bounty programs to enhance security.</li>
                                             </ol>
 
@@ -56,7 +56,7 @@ const Roadmap = () => {
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                <li>- Collaborate with Celestia developers to implement performace upgrades. </li>
+                                                <li>- Collaborate with Celestia developers to implement performance upgrades. </li>
                                                 <li>- Explore additional integration possibilities for improved scalability.</li>
 
                                             </ol>
@@ -84,14 +84,14 @@ const Roadmap = () => {
                             <div className='py-6 w-full'>
                                 {/* Question 2 */}
                                 <div className="block p-6 rounded-lg shadow-lg questions w-full ml-6">
-                                    <h1 className='font-bold'>Q2: 2024</h1>
-                                    <div className="text-sm font-semibold">
+                                    <h1 className='font-black text-2xl'>Q2: 2024</h1>
+                                    <div className="lg:text-base text-sm font-semibold">
                                         <p className='py-2'>1.Decentralized Applications (DApps) Development:</p>
                                         <div className=''>
 
                                             <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
-                                                <li>- Foster partnerships withDeFi projects to encourage native DApp development.</li>
-                                                <li>- Launch developer grants program to incentive Peach-based DApp creation.</li>
+                                                <li>- Foster partnerships with DeFi projects to encourage native DApp development.</li>
+                                                <li>- Launch developer grants program to incentivise Peach-based DApp creation.</li>
 
                                             </ol>
 
@@ -119,8 +119,8 @@ const Roadmap = () => {
                                             <div>
 
                                                 <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                    <li>- Assess market opportunities in key regions, including Asia, Europe, ans North America. </li>
-                                                    <li>- Establish strategic partnerships with blockchian communities and industry influencers.</li>
+                                                    <li>- Assess market opportunities in key regions, including Asia, Europe, and North America. </li>
+                                                    <li>- Establish strategic partnerships with blockchain communities and industry influencers.</li>
 
                                                 </ol>
 
@@ -147,14 +147,14 @@ const Roadmap = () => {
                         <div className='py-6 w-full'>
                             {/* Question 3 */}
                             <div className="block p-6 rounded-lg shadow-lg questions w-full ml-6">
-                                <h1 className='font-bold'>Q3: 2024</h1>
-                                <div className="text-sm font-semibold">
-                                    <p className='py-2'>1.Peach Bloackchain Mainnet Launch:</p>
+                                <h1 className='font-black text-2xl'>Q3: 2024</h1>
+                                <div className="lg:text-base text-sm font-semibold">
+                                    <p className='py-2'>1.Peach Blockchain Mainnet Launch:</p>
                                     <div className=''>
 
                                         <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
                                             <li>- Conduct thorough testing of the mainnet.</li>
-                                            <li>- Organize a high-profile launch event,inviting industry leaders and influencers.</li>
+                                            <li>- Organize a high-profile launch event, inviting industry leaders and influencers.</li>
 
                                         </ol>
 
@@ -167,7 +167,7 @@ const Roadmap = () => {
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                <li>- Launch a liquidity minig program to incentivize users to provide liquidity.</li>
+                                                <li>- Launch a liquidity mining program to incentivize users to provide liquidity.</li>
                                                 <li>- Onboard more DeFi projects onto Peach Blockchain.</li>
 
                                             </ol>
@@ -178,12 +178,12 @@ const Roadmap = () => {
                                     </div>
 
                                     <div className=" py-3">
-                                        <p className='py-2'>.Education and Awarness Campaigns:</p>
+                                        <p className='py-2'>3.Education and Awareness Campaigns:</p>
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                <li>- Launch educational content on Peach Bloackchain's capabilities. </li>
-                                                <li>- Collaboarate with universities and institions for blockchain education programs.</li>
+                                                <li>- Launch educational content on Peach Blockchain&apos;s capabilities. </li>
+                                                <li>- Collaborate with universities and institutions for blockchain education programs.</li>
 
                                             </ol>
 
@@ -209,8 +209,8 @@ const Roadmap = () => {
                         <div className='py-6 w-full'>
                             {/* Question 4 */}
                             <div className="block p-6 rounded-lg shadow-lg questions w-full ml-6">
-                                <h1 className='font-bold'>Q4: 2024</h1>
-                                <div className="text-sm font-semibold">
+                                <h1 className='font-black text-2xl'>Q4: 2024</h1>
+                                <div className="lg:text-base text-sm font-semibold">
                                     <p className='py-2'>1.Interoperability Features:</p>
                                     <div className=''>
 
@@ -229,8 +229,8 @@ const Roadmap = () => {
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
-                                                <li>- Integrate NFT capabilities into Peach Blockchain in the form of PRC-721</li>
-                                                <li>- Collaboarate with artists and creators for exclusive NFT launches.</li>
+                                                <li>- Integrate NFT capabilities into Peach Blockchain in the form of ERC-721</li>
+                                                <li>- Collaborate with artists and creators for exclusive NFT launches.</li>
 
                                             </ol>
 
@@ -240,7 +240,7 @@ const Roadmap = () => {
                                     </div>
 
                                     <div className=" py-3">
-                                        <p className='py-2'>3. Performance and Secuirty Audits:</p>
+                                        <p className='py-2'>3. Performance and Security Audits:</p>
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2 flex-col gap-1'>
@@ -271,13 +271,13 @@ const Roadmap = () => {
                         <div className='py-6 w-full'>
                             {/* onngoing throught */}
                             <div className="block p-6 rounded-lg shadow-lg questions w-full ml-6">
-                                <h1 className='font-bold'>Ongoing: Throughout the Year</h1>
-                                <div className="text-sm font-semibold">
-                                    <p className='py-2'>1.User Feesback Iterations:</p>
+                                <h1 className='font-black text-2xl'>Ongoing: Throughout the Year</h1>
+                                <div className="lg:text-base text-sm font-semibold">
+                                    <p className='py-2'>1.User Feedback Iterations:</p>
                                     <div className=''>
 
                                         <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
-                                            <li>- Continuously gather and analyze user feedback for onngoing improvemenets.</li>
+                                            <li>- Continuously gather and analyze user feedback for ongoing improvements.</li>
                                             <li>- Release regular updates addressing user needs and market dynamics.</li>
 
                                         </ol>
@@ -291,7 +291,7 @@ const Roadmap = () => {
                                         <div>
 
                                             <ol className='flex md:ml-3.5 ml-2  flex-col gap-1'>
-                                                <li>- Foster collaborations with major players in the Bloackchain and fintech industries..</li>
+                                                <li>- Foster collaborations with major players in the Blockchain and fintech industries..</li>
                                                 <li>- Explore potential partnerships with traditional finance institutions for blockchain integration.</li>
 
                                             </ol>

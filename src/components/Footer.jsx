@@ -41,7 +41,7 @@ const Footer = () => {
         <div className="container px-6 border-t-2 border-black py-20 mx-auto max-w-[80%] text-white">
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-6">
             <div className="sm:col-span-2">
-              <h1 className="max-w-lg text-xl text-black font-semibold tracking-tight  xl:text-4xl ">
+              <h1 className="max-w-lg text-xl text-black font-semibold tracking-tight  xl:text-4xl" style={{ fontFamily: 'Rubiks' }}>
                 Be the First to<br /> know.
               </h1>
 
