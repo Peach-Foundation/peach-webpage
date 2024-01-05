@@ -7,7 +7,7 @@ const Roadmap = () => {
 
     return (
         <div className='h-auto px-10  relative'>
-            <h3 className="text-5xl text-black font-extrabold text-center w-full mb-6 ml-3">Roadmap</h3>
+            <h3 className="text-5xl lg:text-8xl r text-black  text-center w-full mb-6 ml-3">Roadmap</h3>
             <ol className='max-w-[80%] mx-auto'>
                 <li className="border-l-8  border-[#d118d9] rounded-top-right">
                     <div className="md:flex flex-start">

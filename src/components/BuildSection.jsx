@@ -7,7 +7,7 @@ const BuildSection = () => {
         <div className=' relative w-full h-screen '>
             <div className='flex justify-end h-full lg:max-w-[96%] max-w-[90%] px-4 sm:pt-24 pt-32'>
             <div className='flex flex-col  h-full px-4'>
-            <h1 className='font-bold lg:text-6xl  text-4xl py-4'>$PCH Token</h1>
+            <h1 className='r lg:text-6xl  text-4xl py-4'>$PCH Token</h1>
             <p className='md:text-lg text-md '>Native to Peach blockchain, $PCH will be used to security and governace.</p>
           <a href="https://peach-layer-2.gitbook.io/documentation/peach-token-usdpch"><button className='bg-black text-white px-8 py-3 my-7 rounded-full w-fit'>Tokenomics</button></a>
             </div>

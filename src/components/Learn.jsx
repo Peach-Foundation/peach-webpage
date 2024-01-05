@@ -4,7 +4,7 @@ const Learn = () => {
   return (
     <div className='overflow-x-hidden w-full h-screen py-10 relative'>
         <div  className='flex flex-col  md:ml-32 sm:ml-14 ml-8 h-full '>
-          <h1 className='font-bold lg:text-8xl  text-5xl py-8'>Your wish <br/> my command</h1>
+          <h1 className='r lg:text-8xl  text-5xl py-8'>Your wish <br/> my command</h1>
           <p className=' text-2xl lg:max-w-[45%] md:max-w-[60%]
                     max-w-[90%] '>Peach is an isolated processing 
           layer3 blockchain which integrates AI to seamlessly execute any specific task.</p>
