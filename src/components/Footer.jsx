@@ -60,6 +60,8 @@ const Footer = () => {
             >
               Subscribe
             </button>
+            {subscribed ? <h5>Thanks for subscribing!</h5> : <></>}
+
               </div>
             </div>
 
