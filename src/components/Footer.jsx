@@ -171,7 +171,7 @@ const Footer = () => {
             <div>
               <p className="font-extrabold text-black text-xl ">Follow us</p>
              <a href="https://twitter.com/PeachLayer2"><button className='px-4 py-3  mt-5 rounded-md font-semibold bg-black text-white'>
-                Community
+                Twitter
               </button>
               </a> 
             </div>
