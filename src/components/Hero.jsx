@@ -19,7 +19,7 @@ const Hero = () => {
                     <h1 className='font-bold lg:text-7xl md:text-7xl text-4xl'>The One Above All</h1>
                     <div className='w-full  flex lg:items-center lg:justify-center md:font-semibold '>
                         <p className='lg:max-w-[52%] lg:text-xl text-base lg:text-center md:w-[80%] w-full'>
-                            Peach is a layer 2 EVM blockchain built on the Cosmos stack and harness the data availability layer on Celestia, making blockchain operations hyper easy for everyone.
+                            Peach is a Layer 2 zone built on the Cosmos stack, harnessing the data availability layer on Celestia, thereby simplifying transactional operations for everyone.
                         </p>
                     </div>
                     {/* <Timer/> */}
