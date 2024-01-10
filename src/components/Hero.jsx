@@ -4,9 +4,10 @@ import Timer from './Timer';
 import { IoMdMenu } from "react-icons/io";
 import square from '../assets/Peach.png'
 import triangle from '../assets/newTri.png'
-import op from '../assets/OP.svg'
 import powerBy from '../assets/powerBy.svg'
-import built from '../assets/builtIn.svg'
+// import built from '../assets/builtIn.svg'
+import built from '../assets/builtoncosmos.svg'
+
 const Hero = () => {
     return (
         <div className='overflow-x-hidden  w-full lg:h-screen h-[150vh] relative z-0 '>
@@ -18,7 +19,7 @@ const Hero = () => {
                     <h1 className='font-bold lg:text-7xl md:text-7xl text-4xl'>The One Above All</h1>
                     <div className='w-full  flex lg:items-center lg:justify-center md:font-semibold '>
                         <p className='lg:max-w-[52%] lg:text-xl text-base lg:text-center md:w-[80%] w-full'>
-                            Peach is a layer 2 EVM blockchain built on the Optimism stack and harness the data availability layer on Celestia, making blockchain operations hyper easy for everyone.
+                            Peach is a layer 2 EVM blockchain built on the Cosmos stack and harness the data availability layer on Celestia, making blockchain operations hyper easy for everyone.
                         </p>
                     </div>
                     {/* <Timer/> */}
